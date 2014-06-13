@@ -13,7 +13,7 @@ ghost.play();
 function Help(){
   alert("Welcome to Mysterious Findings!");
 alert("Find all of the hidden objects in each level with your mouse!");
-  alert("Each item that you need to find will be displayed in the lower-right corner!");
+  alert("Items that you need to find will be displayed in the lower-right corner!");
   alert("After you manage to find each item hidden, you will be taken to another level!");
   alert("Have fun!");
 }
