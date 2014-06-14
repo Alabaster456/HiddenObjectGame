@@ -2,14 +2,14 @@
 <html>
 <head>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-          <!-- Title of the game -->
   <title> Mysterious Findings - Hidden Object Game </title>
 
   <meta charset="utf-8">
+  <title>JS Bin</title>
 </head>
 <body id="color">
   <!-- Title of game -->
-  <div id="title" class="disappear"> Mysterious Findings <br> <em>Hidden Object Game</em></div>
+  <img id="title" class="disappear" src="http://blog.flamingtext.com/blog/2014/05/08/flamingtext_com_1399556679_677534339.png"/>
  <!-- Item list (a.k.a border) -->
   <div id="indicator" class="lvl1"><em>List of Items </div>
   <!--Images sorted -->
@@ -29,9 +29,12 @@
   <img id="ringlist" class="lvl1" src="http://www.clker.com/cliparts/5/8/d/6/11971079931958430346Chrisdesign_Silver_Ring_1.svg.med.png"/>
   <img id="magnifyingglasslist" class="lvl1" src="http://www.clker.com/cliparts/e/v/A/R/K/t/transparent-magnifying-glass-md.png"/>
   <img id="hammerlist" class="lvl1" src="http://pngimg.com/upload/hammer_PNG1124.png"/>
+    <!-- END -->
   <!-- Buttons -->
   <button id="game" class="disappear" onclick="Game()">Begin Game </button>
   <button id="help" onclick="Help()" class="disappear">Help</button>
   <!-- END -->
+    <div id="complete">Level <span style="color: red">1</span> is completed! </div>
+    <button class="nextlevel" onclick="Game2()"> Proceed to the next level </button>
 </body>
 </html>
