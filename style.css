@@ -1,6 +1,7 @@
 /* Background color */
 #color {
-  background-color: gray;
+  background-color: #808080;
+ 
 }
 /* END */
 /* Title of game */
@@ -94,7 +95,7 @@ display:none;
   margin-top:556px;
   position:fixed;
   font-family:cursive;
-  color:blue;
+  color:yellow;
   text-align:center;
  z-index:1;
   display:none;
@@ -132,4 +133,17 @@ margin-left:790px;
   position:fixed;
  display:none;
 }
-.lvl1
+#complete {
+  
+  margin-top:580px;
+  position:fixed;
+  font-size:60px;
+  color:yellow;
+  display:none;
+} 
+.nextlevel {
+  margin-left: 400px;
+  margin-top:400px;
+  position:fixed;
+  display:none;
+}
