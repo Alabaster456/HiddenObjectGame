@@ -52,6 +52,14 @@
 position:fixed;
 display:none;
 }
+#secondlevel {
+   width:100%;
+    height:100%;
+ top:0px;
+    left:0px;
+position:fixed;
+display:none;
+}
 /* END */
 /* First levels' items CSS */
 #clock {
@@ -98,7 +106,10 @@ display:none;
   color:yellow;
   text-align:center;
  z-index:1;
-  display:none;
+ display:none;
+}
+#indicator:hover {
+  background-color:purple;
 }
 /*Listed items for lvl1 */
 #clocklist {
@@ -107,6 +118,7 @@ display:none;
   width:50px;
   margin-top:600px;
   margin-left:730px;
+  z-index:2;
 display:none;
 }
 #ringlist {
@@ -115,6 +127,7 @@ display:none;
   width:40px;
   margin-top:610px;
 margin-left:790px;
+  z-index:2;
   display:none;
 }
 #magnifyingglasslist {
@@ -123,6 +136,7 @@ margin-left:790px;
   margin-left:840px;
   margin-top:600px;
   position:fixed;
+  z-index:2;
  display:none; 
 }
 #hammerlist {
@@ -131,8 +145,10 @@ margin-left:790px;
   height:60px;
   width:60px;
   position:fixed;
+    z-index:2;
  display:none;
 }
+/* END */
 #complete {
   
   margin-top:580px;
@@ -141,9 +157,96 @@ margin-left:790px;
   color:yellow;
   display:none;
 } 
+#complete:hover {
+  color:black;
+}
 .nextlevel {
   margin-left: 400px;
   margin-top:400px;
   position:fixed;
   display:none;
 }
+/* Second level's items */
+#guitar {
+  position:fixed;
+  margin-top:500px;
+  margin-left:300px;
+  height:60px;
+  width:60px;
+ 
+}
+#microphone {
+  position:fixed;
+  height:40px;
+  width:40px;
+  margin-left:820px;
+  margin-top:490px;
+}
+#glue {
+  position:fixed;
+  height:29px;
+  width:20px;
+  margin-left:100px;
+  margin-top:100px;
+}
+#fishingpole {
+  position: fixed;
+  height:60px;
+  width:60px;
+  margin-left:530px;
+  margin-top:190px;
+}
+#footballhelmet {
+  position:fixed;
+  height:50px;
+  width:50px;
+  margin-left:350px;
+  margin-top:200px;
+}
+/* END */
+/*Second level's LIST of items */
+#guitarlist {
+  position:fixed;
+  margin-left:720px;
+  margin-top:580px;
+  height:70px;
+  width:70px;
+  z-index:1;
+  
+}
+#microphonelist {
+position:fixed;
+margin-left:780px;
+margin-top:590px;
+height:50px;
+width:50px;
+  z-index:1;
+}
+#gluelist {
+position:fixed;
+margin-left:900px;
+margin-top:600px;
+height:40px;
+width:40px;
+  z-index:1;
+}
+#fishingpolelist {
+position:fixed;
+height:80px;
+width:80px; 
+  margin-left:820px;
+  margin-top:580px;
+  z-index:1;
+}
+#footballhelmetlist {
+  position:fixed;
+  margin-left:960px;
+  margin-top:585px;
+  height:50px;
+  width:50px;
+  z-index:1;
+}
+.lvl2 {
+  display:none;
+}
+/* END */
