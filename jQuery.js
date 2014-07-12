@@ -45,7 +45,7 @@ $("#clocklist").fadeOut('slow');
         result++;
         if (result === 4) {
             $("#complete").delay(500).fadeIn('slow');
-          $(".nextlevel").delay(500).fadeIn('slow');
+          $("#nextlevel").delay(500).fadeIn('slow');
           firstlevel.pause();
           YES.play();
         }
@@ -55,7 +55,7 @@ function Game2() {
   $("#firstlevel").fadeOut('slow');
   $(".lvl1").fadeOut('slow');
   $("#complete").fadeOut('slow');
-  $(".nextlevel").fadeOut('slow');
+  $("#nextlevel").fadeOut('slow');
   $(".lvl2").fadeIn('slow');
  var result = 0;
     $("#footballhelmet, #microphone, #glue, #fishingpole, #guitar").one("click", function () {
@@ -73,11 +73,38 @@ $("#guitarlist").fadeOut('slow');
 }
             result++;
         if (result === 5) {
-            $("#complete").delay(500).fadeIn('slow');
-          $(".nextlevel").delay(500).fadeIn('slow');
+            $("#complete2").delay(500).fadeIn('slow');
+          $("#nextlevel2").delay(500).fadeIn('slow');
         
           YES.play();
         }
     });
                                                       }
+function Game3() {
+  $(".lvl2").fadeOut('slow');  $("#complete2").fadeOut('slow');
+  $("#nextlevel2").fadeOut('slow');
+  $(".lvl3").fadeIn('slow');
+   var result = 0;
+    $("#pumpkin, #pencil, #eyeball, #doorbell, #spiderweb").one("click", function () {
+        $(this).fadeOut('slow');
+      if (this.id === "pumpkin") {
+$("#pumpkinlist").fadeOut('slow');
+      } else if (this.id ==="pencil") {
+        $("#pencillist").fadeOut('slow');
+      } else if (this.id === "eyeball") {
+        $("#eyeballlist").fadeOut('slow');
+      } else if (this.id === "doorbell") {
+      $("#doorbelllist").fadeOut('slow');  
+} else if (this.id === "spiderweb") {
+  $("#spiderweblist").fadeOut('slow');
+}
+            result++;
+        if (result === 5) {
+            $("#complete2").delay(500).fadeIn('slow');
+          $("#nextlevel2").delay(500).fadeIn('slow');
+        
+          YES.play();
+        }
+    });
+}
 
