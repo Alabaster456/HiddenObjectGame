@@ -5,7 +5,7 @@
   <title> Mysterious Findings - Hidden Object Game </title>
 
   <meta charset="utf-8">
-  
+  <title>JS Bin</title>
 </head>
 <body id="color">
   <!-- Title of game -->
@@ -20,14 +20,12 @@
     
     <img id="secondlevel" class="lvl2" src="http://images.fineartamerica.com/images-medium-large-5/new-year-city-paul-calabrese.jpg"/>
   <!-- END -->
-  
   <!-- First level's items -->
   <img id="clock" class="lvl1" src="http://www.emsb.qc.ca/mackay/images/clockTransparent.gif"/>
   <img id="ring" class="lvl1" src="http://www.clker.com/cliparts/5/8/d/6/11971079931958430346Chrisdesign_Silver_Ring_1.svg.med.png"/>
   <img id="magnifyingglass" class="lvl1" src="http://www.clker.com/cliparts/e/v/A/R/K/t/transparent-magnifying-glass-md.png"/>
   <img id="hammer" class="lvl1" src="http://pngimg.com/upload/hammer_PNG1124.png"/>
   <!-- END -->
-  
     <!-- Second level's items -->
     <img id="guitar" class="lvl2" src="http://www.clipartlord.com/wp-content/uploads/2014/01/electric-guitar7.png"/>
     <img id="microphone" class="lvl2" src="http://www.anglistikdidaktikwiki.uni-jena.de/images/6/69/Microphone.png"/>
@@ -35,7 +33,22 @@
     <img id="fishingpole" class="lvl2" src="http://www.clipartbest.com/cliparts/9T4/ABx/9T4ABxETE.png"/>
     <img id="footballhelmet" class="lvl2" src="http://www.clker.com/cliparts/Y/j/v/Y/f/o/football-helmet.svg"/>
     <!-- END -->
-   
+    <!-- Third level's items -->
+    <img id="pumpkinlevel" class="lvl3" src="http://www.wallpaperstop.com/wallpapers/cartoon-wallpapers/cartoon-background-1600x1200-1002049.jpg"/>
+      <img id="pumpkin" class="lvl3" src="http://frpic.com/vectors/holiday-clipart/holiday-clipart.png"/>
+      <img id="pencil" class="lvl3" src="http://www.clipartbest.com/cliparts/aie/R6z/aieR6zqKT.png"/>
+      <img id="eyeball" class="lvl3" src="http://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons-256/3d-transparent-glass-icons-people-things/059449-3d-transparent-glass-icon-people-things-eye6.png"/>
+      <img id="doorbell" class="lvl3" src="http://www.clker.com/cliparts/6/a/f/a/1278777833868599589doorbellheader-hi.png"/>
+      <img id="spiderweb" class="lvl3" src="http://clipartist.info/clipart/halloween/halloween_spider_web_icon-1229px.png"/>
+      <!-- END -->
+      <!-- List of items (lvl3) -->
+      <img id="pumpkinlist" class="lvl3" src="http://frpic.com/vectors/holiday-clipart/holiday-clipart.png"/>
+      <img id="pencillist" class="lvl3" src="http://www.clipartbest.com/cliparts/aie/R6z/aieR6zqKT.png"/>
+      <img id="eyeballlist" class="lvl3" src="http://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons-256/3d-transparent-glass-icons-people-things/059449-3d-transparent-glass-icon-people-things-eye6.png"/>
+      <img id="doorbelllist" class="lvl3" src="http://www.clker.com/cliparts/6/a/f/a/1278777833868599589doorbellheader-hi.png"/>
+      <img id="spiderweblist" class="lvl3" src="http://clipartist.info/clipart/halloween/halloween_spider_web_icon-1229px.png"/>
+   <!-- END -->
+      
     <!-- Item list (lvl2) -->
       <img id="guitarlist" class="lvl2" src="http://www.clipartlord.com/wp-content/uploads/2014/01/electric-guitar7.png"/>
     <img id="microphonelist" class="lvl2" src="http://www.anglistikdidaktikwiki.uni-jena.de/images/6/69/Microphone.png"/>
@@ -50,13 +63,14 @@
   <img id="magnifyingglasslist" class="lvl1" src="http://www.clker.com/cliparts/e/v/A/R/K/t/transparent-magnifying-glass-md.png"/>
   <img id="hammerlist" class="lvl1" src="http://pngimg.com/upload/hammer_PNG1124.png"/>
     <!-- END -->
-  
   <!-- Buttons -->
   <button id="game" class="disappear" onclick="Game()">Begin Game </button>
   <button id="help" onclick="Help()" class="disappear">Help</button>
   <!-- END -->
-    
-    <div id="complete">Level <span style="color: red">1</span> is completed! </div>
-    <button class="nextlevel" onclick="Game2()"> Proceed to the next level </button>
+    <div id="complete">Level <span style="color: red">1</span> is complete! </div>
+    <div id="complete2"> Level 2 is complete! </div>
+    <button id="nextlevel" onclick="Game2()"> Proceed to level 2</button>
+    <button id="nextlevel2" onclick="Game3()">Proceed to level 3 </button>
+    <button id="nextlevel3" onclick="Game4()">Proceed to level 4 </button>
 </body>
 </html>
