@@ -60,6 +60,14 @@ display:none;
 position:fixed;
 display:none;
 }
+/* Third level */
+#pumpkinlevel {
+   width:100%;
+    height:100%;
+ top:0px;
+    left:0px;
+position:fixed;
+ }
 /* END */
 /* First levels' items CSS */
 #clock {
@@ -157,11 +165,24 @@ margin-left:790px;
   color:yellow;
   display:none;
 } 
+#complete2 {
+margin-top:580px;
+position:fixed;
+font-size:60px;
+color:black;
+  display:none;
+}
 #complete:hover {
   color:black;
 }
-.nextlevel {
+#nextlevel {
   margin-left: 400px;
+  margin-top:400px;
+  position:fixed;
+  display:none;
+}
+#nextlevel2 {
+  margin-left:400px;
   margin-top:400px;
   position:fixed;
   display:none;
@@ -250,3 +271,94 @@ width:80px;
   display:none;
 }
 /* END */
+/* Third level's items CSS code */
+#pumpkin {
+  position:fixed;
+  margin-top:430px;
+  margin-left:150px;
+  height:90px;
+  width:90px;
+  display:none;
+}
+#pencil {
+position:fixed;
+height:40px;
+width:40px;
+  margin-left:645px;
+  margin-top:460px;
+  display:none;
+}
+#eyeball {
+  position:fixed;
+  height:40px;
+  width:40px;
+  margin-left:205px;
+  margin-top:40px;
+  display:none;
+}
+#doorbell {
+position:fixed;
+height:30px;
+width:20px;
+margin-left:570px;
+  margin-top:220px;
+  display:none;
+}
+#spiderweb {
+  position:fixed;
+  margin-left:740px;
+  margin-top:400px;
+  height:120px;
+  width:120px;
+  display:none;
+}
+/* END */
+/* Item List (lvl3) */ 
+#pumpkinlist {
+  position:fixed;
+  margin-left:720px;
+  margin-top:580px;
+  height:70px;
+  width:70px;
+  z-index:1;
+  display:none;
+}
+#pencillist {
+  position:fixed;
+  margin-left:800px;
+  margin-top:590px;
+  height:50px;
+  width:50px;
+  z-index:1;
+  display:none;
+}
+#eyeballlist {
+position:fixed;
+  margin-left:850px;
+  margin-top:590px;
+  height:50px;
+  width:50px;
+  z-index:1;
+  display:none;
+}
+#doorbelllist {
+  position:fixed;
+  margin-left:910px;
+  margin-top:600px;
+  height:40px;
+  width:20px;
+  z-index:1;
+  display:none;
+}
+#spiderweblist {
+ position:fixed;
+  margin-left:940px;
+  margin-top:580px;
+  height:70px;
+  width:70px;
+  z-index:1;
+  display:none;
+}
+.lvl3 {
+  display:none;
+}
